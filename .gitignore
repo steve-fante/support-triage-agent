@@ -1,0 +1,32 @@
+# Secrets
+.env
+*.key
+
+# Clés SSH et certificats
+id_*
+*_ed25519
+*_rsa
+*.pem
+*.ppk
+
+# Sorties d'évaluation
+metrics.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Éditeurs et systèmes
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
